@@ -1,4 +1,5 @@
 # todo_app
+This application is a toDo application with Firebase real time database integration. It allows the user full CRUD functionality and provides persistent data. 
 
 ## Project setup
 ```
