@@ -27,9 +27,9 @@ import Header from "./components/layout/header";
 import AddTodo from "./components/AddTodo";
 import Firebase from "firebase";
 var database = Firebase.initializeApp({
-	apiKey: "AIzaSyA4dTMznV_LRSJqiD02hmxsAaVCWpVtzDU",
+	apiKey: "API_KEY_HERE",
 	authDomain: "vue-todo-147ad.firebaseapp.com",
-	databaseURL: "https://vue-todo-147ad.firebaseio.com",
+	databaseURL: "DATABASE_URL_HERE",
 	projectId: "vue-todo-147ad",
 	storageBucket: "vue-todo-147ad.appspot.com",
 	messagingSenderId: "997636696575",
@@ -38,7 +38,6 @@ var database = Firebase.initializeApp({
 })
 	.database()
 	.ref();
-//import firebase again, set up crud, good to go
 
 export default {
 	name: "App",
